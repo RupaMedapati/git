@@ -1,0 +1,27 @@
+git: git is a version control system.
+setup:
+-----------
+git config --global user.name ""
+git config --global user.email ""
+start a project:
+------------------
+git init <directory>
+dwnld a remote repo:
+-------------------
+git clone <url>
+make a changes:
+-------------------
+add file to staging-> git add <file>
+stage allfiles:git add .
+------------------------
+commit all stagged files to git: git commit -m "commit msg"
+---------------------------
+branches:
+--------------------------
+git branch
+git branch <newbranchname>
+git checkout <branch>
+git checkout -b <newbranch>->create newbranch and checkout to it
+git branch -d <branch>->delete a merged branch
+git branch -o <branch>delete a branch whether merged or not
+
